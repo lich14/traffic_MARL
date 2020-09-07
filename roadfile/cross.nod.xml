@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
    <node id="cross_c" x="0.0" y="0.0"  type="traffic_light"/>
-   <node id="cross_w" x="-1000.0" y="0.0"  type="traffic_light"/>
-   <node id="cross_n" x="0.0" y="1000.0"  type="traffic_light"/>
-   <node id="cross_s" x="0.0" y="-1000.0"  type="traffic_light"/>
-   <node id="cross_e" x="1000.0" y="0.0"  type="traffic_light"/>
+   <node id="cross_w" x="-500.0" y="0.0"  type="traffic_light"/>
+   <node id="cross_n" x="0.0" y="500.0"  type="traffic_light"/>
+   <node id="cross_s" x="0.0" y="-500.0"  type="traffic_light"/>
+   <node id="cross_e" x="500.0" y="0.0"  type="traffic_light"/>
 
-   <node id="w1" x="-1500.0" y="0.0" type="priority"/>
-   <node id="e1" x="+1500.0" y="0.0" type="priority"/>
-   <node id="s1" x="0.0" y="-1500.0" type="priority"/>
-   <node id="n1" x="0.0" y="+1500.0" type="priority"/> 
+   <node id="w1" x="-1000.0" y="0.0" type="priority"/>
+   <node id="e1" x="+1000.0" y="0.0" type="priority"/>
+   <node id="s1" x="0.0" y="-1000.0" type="priority"/>
+   <node id="n1" x="0.0" y="+1000.0" type="priority"/> 
 </nodes>
