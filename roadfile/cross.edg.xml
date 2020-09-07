@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
-   <edge id="ni" from="cross_n" to="cross_c" priority="1" numLanes="1" speed="25" />
-   <edge id="no" from="cross_c" to="cross_n" priority="1" numLanes="1" speed="25" />
-   <edge id="wi" from="cross_w" to="cross_c" priority="1" numLanes="1" speed="25" />
-   <edge id="wo" from="cross_c" to="cross_w" priority="1" numLanes="1" speed="25" />
-   <edge id="ei" from="cross_e" to="cross_c" priority="1" numLanes="1" speed="25" />
-   <edge id="eo" from="cross_c" to="cross_e" priority="1" numLanes="1" speed="25" />
-   <edge id="si" from="cross_s" to="cross_c" priority="1" numLanes="1" speed="25" />
-   <edge id="so" from="cross_c" to="cross_s" priority="1" numLanes="1" speed="25" />
+   <edge id="ni" from="crossn" to="crossc" priority="1" numLanes="1" speed="25" />
+   <edge id="no" from="crossc" to="crossn" priority="1" numLanes="1" speed="25" />
+   <edge id="wi" from="crossw" to="crossc" priority="1" numLanes="1" speed="25" />
+   <edge id="wo" from="crossc" to="crossw" priority="1" numLanes="1" speed="25" />
+   <edge id="ei" from="crosse" to="crossc" priority="1" numLanes="1" speed="25" />
+   <edge id="eo" from="crossc" to="crosse" priority="1" numLanes="1" speed="25" />
+   <edge id="si" from="crosss" to="crossc" priority="1" numLanes="1" speed="25" />
+   <edge id="so" from="crossc" to="crosss" priority="1" numLanes="1" speed="25" />
 
-   <edge id="w1i" from="w1" to="cross_w" priority="1" numLanes="1" speed="25" />
-   <edge id="w1o" from="cross_w" to="w1" priority="1" numLanes="1" speed="25" />
+   <edge id="w1i" from="w1" to="crossw" priority="1" numLanes="1" speed="25" />
+   <edge id="w1o" from="crossw" to="w1" priority="1" numLanes="1" speed="25" />
 
-   <edge id="e1i" from="e1" to="cross_e" priority="1" numLanes="1" speed="25" />
-   <edge id="e1o" from="cross_e" to="e1" priority="1" numLanes="1" speed="25" />
+   <edge id="e1i" from="e1" to="crosse" priority="1" numLanes="1" speed="25" />
+   <edge id="e1o" from="crosse" to="e1" priority="1" numLanes="1" speed="25" />
 
-   <edge id="n1i" from="n1" to="cross_n" priority="1" numLanes="1" speed="25" />
-   <edge id="n1o" from="cross_n" to="n1" priority="1" numLanes="1" speed="25" />
+   <edge id="n1i" from="n1" to="crossn" priority="1" numLanes="1" speed="25" />
+   <edge id="n1o" from="crossn" to="n1" priority="1" numLanes="1" speed="25" />
 
-   <edge id="s1i" from="s1" to="cross_s" priority="1" numLanes="1" speed="25" />
-   <edge id="s1o" from="cross_s" to="s1" priority="1" numLanes="1" speed="25" />
+   <edge id="s1i" from="s1" to="crosss" priority="1" numLanes="1" speed="25" />
+   <edge id="s1o" from="crosss" to="s1" priority="1" numLanes="1" speed="25" />
 
 
 </edges>
