@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
-   <node id="crossc" x="0.0" y="0.0"  type="traffic_light"/>
-   <node id="crossw" x="-500.0" y="0.0"  type="traffic_light"/>
-   <node id="crossn" x="0.0" y="500.0"  type="traffic_light"/>
-   <node id="crosss" x="0.0" y="-500.0"  type="traffic_light"/>
-   <node id="crosse" x="500.0" y="0.0"  type="traffic_light"/>
+   <node id="11" x="-2500.0" y="2500.0"  type="traffic_light"/>
+   <node id="12" x="-1500.0" y="2500.0"  type="traffic_light"/>
+   <node id="13" x="-500.0" y="2500.0"  type="traffic_light"/>
+   <node id="14" x="500.0" y="2500.0"  type="traffic_light"/>
+   <node id="15" x="1500.0" y="2500.0"  type="traffic_light"/>
+   <node id="16" x="2500.0" y="2500.0"  type="traffic_light"/>
 
-   <node id="w1" x="-1000.0" y="0.0" type="priority"/>
-   <node id="e1" x="+1000.0" y="0.0" type="priority"/>
-   <node id="s1" x="0.0" y="-1000.0" type="priority"/>
-   <node id="n1" x="0.0" y="+1000.0" type="priority"/> 
+   <node id="21" x="-2500.0" y="1500.0"  type="traffic_light"/>
+   <node id="22" x="-1500.0" y="1500.0"  type="traffic_light"/>
+   <node id="23" x="-500.0" y="1500.0"  type="traffic_light"/>
+   <node id="24" x="500.0" y="1500.0"  type="traffic_light"/>
+   <node id="25" x="1500.0" y="1500.0"  type="traffic_light"/>
+   <node id="26" x="2500.0" y="1500.0"  type="traffic_light"/>
+
+   <node id="31" x="-2500.0" y="500.0"  type="traffic_light"/>
+   <node id="32" x="-1500.0" y="500.0"  type="traffic_light"/>
+   <node id="33" x="-500.0" y="500.0"  type="traffic_light"/>
+   <node id="34" x="500.0" y="500.0"  type="traffic_light"/>
+   <node id="35" x="1500.0" y="500.0"  type="traffic_light"/>
+   <node id="36" x="2500.0" y="500.0"  type="traffic_light"/>
+
+   <node id="41" x="-2500.0" y="-500.0"  type="traffic_light"/>
+   <node id="42" x="-1500.0" y="-500.0"  type="traffic_light"/>
+   <node id="43" x="-500.0" y="-500.0"  type="traffic_light"/>
+   <node id="44" x="500.0" y="-500.0"  type="traffic_light"/>
+   <node id="45" x="1500.0" y="-500.0"  type="traffic_light"/>
+   <node id="46" x="2500.0" y="-500.0"  type="traffic_light"/>
+
+   <node id="51" x="-2500.0" y="-1500.0"  type="traffic_light"/>
+   <node id="52" x="-1500.0" y="-1500.0"  type="traffic_light"/>
+   <node id="53" x="-500.0" y="-1500.0"  type="traffic_light"/>
+   <node id="54" x="500.0" y="-1500.0"  type="traffic_light"/>
+   <node id="55" x="1500.0" y="-1500.0"  type="traffic_light"/>
+   <node id="56" x="2500.0" y="-1500.0"  type="traffic_light"/>
+
+   <node id="61" x="-2500.0" y="-2500.0"  type="traffic_light"/>
+   <node id="62" x="-1500.0" y="-2500.0"  type="traffic_light"/>
+   <node id="63" x="-500.0" y="-2500.0"  type="traffic_light"/>
+   <node id="64" x="500.0" y="-2500.0"  type="traffic_light"/>
+   <node id="65" x="1500.0" y="-2500.0"  type="traffic_light"/>
+   <node id="66" x="2500.0" y="-2500.0"  type="traffic_light"/>
+
+   <node id="d1" x="-2500.0" y="-3500.0"  type="traffic_light"/>
+   <node id="d2" x="-1500.0" y="-3500.0"  type="traffic_light"/>
+   <node id="d3" x="-500.0" y="-3500.0"  type="traffic_light"/>
+   <node id="d4" x="500.0" y="-3500.0"  type="traffic_light"/>
+   <node id="d5" x="1500.0" y="-3500.0"  type="traffic_light"/>
+   <node id="d6" x="2500.0" y="-3500.0"  type="traffic_light"/>
+
+   <node id="u1" x="-2500.0" y="3500.0"  type="traffic_light"/>
+   <node id="u2" x="-1500.0" y="3500.0"  type="traffic_light"/>
+   <node id="u3" x="-500.0" y="3500.0"  type="traffic_light"/>
+   <node id="u4" x="500.0" y="3500.0"  type="traffic_light"/>
+   <node id="u5" x="1500.0" y="3500.0"  type="traffic_light"/>
+   <node id="u6" x="2500.0" y="3500.0"  type="traffic_light"/>
+
+   <node id="l1" x="-3500.0" y="-2500.0"  type="traffic_light"/>
+   <node id="l2" x="-3500.0" y="-1500.0"  type="traffic_light"/>
+   <node id="l3" x="-3500.0" y="-500.0"  type="traffic_light"/>
+   <node id="l4" x="-3500.0" y="500.0"  type="traffic_light"/>
+   <node id="l5" x="-3500.0" y="1500.0"  type="traffic_light"/>
+   <node id="l6" x="-3500.0" y="2500.0"  type="traffic_light"/>
+
+   <node id="r1" x="3500.0" y="-2500.0"  type="traffic_light"/>
+   <node id="r2" x="3500.0" y="-1500.0"  type="traffic_light"/>
+   <node id="r3" x="3500.0" y="-500.0"  type="traffic_light"/>
+   <node id="r4" x="3500.0" y="500.0"  type="traffic_light"/>
+   <node id="r5" x="3500.0" y="1500.0"  type="traffic_light"/>
+   <node id="r6" x="3500.0" y="2500.0"  type="traffic_light"/>
+
 </nodes>
