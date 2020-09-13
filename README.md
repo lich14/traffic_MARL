@@ -4,3 +4,8 @@
 
 ![image](https://github.com/lich14/traffic_MARL/blob/master/1.png)
 ![image](https://github.com/lich14/traffic_MARL/blob/master/2.png)
+
+```math
+cd roadfile
+sumo-gui -c cross.sumocfg 
+```
