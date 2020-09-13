@@ -50,7 +50,7 @@
    <edge id="r67" from="66" to="r1" priority="1" numLanes="1" speed="20" />
 
    <edge id="l11" to="l6" from="11" priority="1" numLanes="1" speed="20" />
-   <edge id="l12" to="l1" from="12" priority="1" numLanes="1" speed="20" />
+   <edge id="l12" to="11" from="12" priority="1" numLanes="1" speed="20" />
    <edge id="l13" to="12" from="13" priority="1" numLanes="1" speed="20" />
    <edge id="l14" to="13" from="14" priority="1" numLanes="1" speed="20" />
    <edge id="l15" to="14" from="15" priority="1" numLanes="1" speed="20" />
