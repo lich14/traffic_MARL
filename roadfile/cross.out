@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 四 10/10 16:28:32 2019 by Eclipse SUMO GUI Version 1.0.1
+<!-- generated on 2020年09月07日 星期一 17时28分50秒 by Eclipse SUMO GUI Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/Users/lich14/Downloads/sumo-1.0.1/docs/tutorial/roadfile/cross.net.xml"/>
-        <additional-files value="/Users/lich14/Downloads/sumo-1.0.1/docs/tutorial/roadfile/cross.det.xml"/>
+        <net-file value="/home/lch/Download/traffic_MARL/roadfile/cross.net.xml"/>
+        <additional-files value="/home/lch/Download/traffic_MARL/roadfile/cross.det.xml"/>
     </input>
 
     <time>
