@@ -2,7 +2,7 @@
 <edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
 
    <edge id="r11" from="l6" to="11" priority="1" numLanes="1" speed="20" />
-   <edge id="r12" from="l1" to="12" priority="1" numLanes="1" speed="20" />
+   <edge id="r12" from="11" to="12" priority="1" numLanes="1" speed="20" />
    <edge id="r13" from="12" to="13" priority="1" numLanes="1" speed="20" />
    <edge id="r14" from="13" to="14" priority="1" numLanes="1" speed="20" />
    <edge id="r15" from="14" to="15" priority="1" numLanes="1" speed="20" />
@@ -23,7 +23,7 @@
    <edge id="r34" from="33" to="34" priority="1" numLanes="1" speed="20" />
    <edge id="r35" from="34" to="35" priority="1" numLanes="1" speed="20" />
    <edge id="r36" from="35" to="36" priority="1" numLanes="1" speed="20" />
-   <edge id="r37" from="36" to="l4" priority="1" numLanes="1" speed="20" />
+   <edge id="r37" from="36" to="r4" priority="1" numLanes="1" speed="20" />
 
    <edge id="r41" from="l3" to="41" priority="1" numLanes="1" speed="20" />
    <edge id="r42" from="41" to="42" priority="1" numLanes="1" speed="20" />
@@ -31,7 +31,7 @@
    <edge id="r44" from="43" to="44" priority="1" numLanes="1" speed="20" />
    <edge id="r45" from="44" to="45" priority="1" numLanes="1" speed="20" />
    <edge id="r46" from="45" to="46" priority="1" numLanes="1" speed="20" />
-   <edge id="r47" from="46" to="l3" priority="1" numLanes="1" speed="20" />
+   <edge id="r47" from="46" to="r3" priority="1" numLanes="1" speed="20" />
 
    <edge id="r51" from="l2" to="51" priority="1" numLanes="1" speed="20" />
    <edge id="r52" from="51" to="52" priority="1" numLanes="1" speed="20" />
@@ -39,7 +39,7 @@
    <edge id="r54" from="53" to="54" priority="1" numLanes="1" speed="20" />
    <edge id="r55" from="54" to="55" priority="1" numLanes="1" speed="20" />
    <edge id="r56" from="55" to="56" priority="1" numLanes="1" speed="20" />
-   <edge id="r57" from="56" to="l2" priority="1" numLanes="1" speed="20" />
+   <edge id="r57" from="56" to="r2" priority="1" numLanes="1" speed="20" />
    
    <edge id="r61" from="l1" to="61" priority="1" numLanes="1" speed="20" />
    <edge id="r62" from="61" to="62" priority="1" numLanes="1" speed="20" />
@@ -47,7 +47,7 @@
    <edge id="r64" from="63" to="64" priority="1" numLanes="1" speed="20" />
    <edge id="r65" from="64" to="65" priority="1" numLanes="1" speed="20" />
    <edge id="r66" from="65" to="66" priority="1" numLanes="1" speed="20" />
-   <edge id="r67" from="66" to="l1" priority="1" numLanes="1" speed="20" />
+   <edge id="r67" from="66" to="r1" priority="1" numLanes="1" speed="20" />
 
    <edge id="l11" to="l6" from="11" priority="1" numLanes="1" speed="20" />
    <edge id="l12" to="l1" from="12" priority="1" numLanes="1" speed="20" />
@@ -71,7 +71,7 @@
    <edge id="l34" to="33" from="34" priority="1" numLanes="1" speed="20" />
    <edge id="l35" to="34" from="35" priority="1" numLanes="1" speed="20" />
    <edge id="l36" to="35" from="36" priority="1" numLanes="1" speed="20" />
-   <edge id="l37" to="36" from="l4" priority="1" numLanes="1" speed="20" />
+   <edge id="l37" to="36" from="r4" priority="1" numLanes="1" speed="20" />
 
    <edge id="l41" to="l3" from="41" priority="1" numLanes="1" speed="20" />
    <edge id="l42" to="41" from="42" priority="1" numLanes="1" speed="20" />
@@ -79,7 +79,7 @@
    <edge id="l44" to="43" from="44" priority="1" numLanes="1" speed="20" />
    <edge id="l45" to="44" from="45" priority="1" numLanes="1" speed="20" />
    <edge id="l46" to="45" from="46" priority="1" numLanes="1" speed="20" />
-   <edge id="l47" to="46" from="l3" priority="1" numLanes="1" speed="20" />
+   <edge id="l47" to="46" from="r3" priority="1" numLanes="1" speed="20" />
 
    <edge id="l51" to="l2" from="51" priority="1" numLanes="1" speed="20" />
    <edge id="l52" to="51" from="52" priority="1" numLanes="1" speed="20" />
@@ -87,7 +87,7 @@
    <edge id="l54" to="53" from="54" priority="1" numLanes="1" speed="20" />
    <edge id="l55" to="54" from="55" priority="1" numLanes="1" speed="20" />
    <edge id="l56" to="55" from="56" priority="1" numLanes="1" speed="20" />
-   <edge id="l57" to="56" from="l2" priority="1" numLanes="1" speed="20" />
+   <edge id="l57" to="56" from="r2" priority="1" numLanes="1" speed="20" />
    
    <edge id="l61" to="l1" from="61" priority="1" numLanes="1" speed="20" />
    <edge id="l62" to="61" from="62" priority="1" numLanes="1" speed="20" />
@@ -95,7 +95,7 @@
    <edge id="l64" to="63" from="64" priority="1" numLanes="1" speed="20" />
    <edge id="l65" to="64" from="65" priority="1" numLanes="1" speed="20" />
    <edge id="l66" to="65" from="66" priority="1" numLanes="1" speed="20" />
-   <edge id="l67" to="66" from="l1" priority="1" numLanes="1" speed="20" />
+   <edge id="l67" to="66" from="r1" priority="1" numLanes="1" speed="20" />
 
    <edge id="d11" from="u1" to="11" priority="1" numLanes="1" speed="20" />
    <edge id="d21" from="11" to="21" priority="1" numLanes="1" speed="20" />
