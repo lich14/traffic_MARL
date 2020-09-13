@@ -1,8 +1,27 @@
 <routes>
     <vType accel="1.0" decel="5.0" id="ACar" length="2.0" maxSpeed="10.0" sigma="1.0" />
     <vType accel="0.8" decel="5.0" id="BCar" length="2.0" maxSpeed="15.0" sigma="1.0" />
-    <route id="route_ns" edges="d11 d21 d31 d41 d51 d61 d71"/>
-    <route id="route_we" edges="r11 r12 r13 r14 r15 r16 r17"/>
-    <flow depart="1" id="flow_n_s1" route="route_ns" type="ACar" begin="0" end="3600" probability="0.1" />
-    <flow depart="1" id="flow_w_e1" route="route_we" type="BCar" begin="0" end="3600" probability="0.3" />
+    <route id="route_ns1" edges="d11 d21 d31 d41 d51 d61 d71"/>
+    <route id="route_ns2" edges="d12 d22 d32 d42 d52 d62 d72"/>
+    <route id="route_ns3" edges="d13 d23 d33 d43 d53 d63 d73"/>
+    <route id="route_ns4" edges="d14 d24 d34 d44 d54 d64 d74"/>
+    <route id="route_ns5" edges="d15 d25 d35 d45 d55 d65 d75"/>
+
+    <route id="route_we1" edges="r11 r12 r13 r14 r15 r16 r17"/>
+    <route id="route_we2" edges="r21 r22 r23 r24 r25 r26 r27"/>
+    <route id="route_we3" edges="r31 r32 r33 r34 r35 r36 r37"/>
+    <route id="route_we4" edges="r41 r42 r43 r44 r45 r46 r47"/>
+    <route id="route_we5" edges="r51 r52 r53 r54 r55 r56 r57"/>
+
+    <flow depart="1" id="flow_n_s1" route="route_ns1" type="ACar" begin="0" end="36000" probability="0.1" />
+    <flow depart="1" id="flow_n_s2" route="route_ns2" type="ACar" begin="0" end="36000" probability="0.1" />
+    <flow depart="1" id="flow_n_s3" route="route_ns3" type="ACar" begin="0" end="36000" probability="0.1" />
+    <flow depart="1" id="flow_n_s4" route="route_ns4" type="ACar" begin="0" end="36000" probability="0.1" />
+    <flow depart="1" id="flow_n_s5" route="route_ns5" type="ACar" begin="0" end="36000" probability="0.1" />
+
+    <flow depart="1" id="flow_w_e1" route="route_we1" type="BCar" begin="0" end="36000" probability="0.3" />
+    <flow depart="1" id="flow_w_e2" route="route_we2" type="BCar" begin="0" end="36000" probability="0.3" />
+    <flow depart="1" id="flow_w_e3" route="route_we3" type="BCar" begin="0" end="36000" probability="0.3" />
+    <flow depart="1" id="flow_w_e4" route="route_we4" type="BCar" begin="0" end="36000" probability="0.3" />
+    <flow depart="1" id="flow_w_e5" route="route_we5" type="BCar" begin="0" end="36000" probability="0.3" />
 </routes>
