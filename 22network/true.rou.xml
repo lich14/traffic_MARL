@@ -1,0 +1,24 @@
+<routes>
+    <vType accel="1.0" decel="5.0" id="ACar" length="3.0" maxSpeed="10.0" sigma="1.0" />
+    <route id="route_we1" edges="left1A1 A1B1 B1right1"/>
+    <route id="route_we2" edges="right1B1 B1A1 A1left1"/>
+
+    <route id="route_we3" edges="left0A0 A0B0 B0right0"/>
+    <route id="route_we4" edges="right0B0 B0A0 A0left0"/>
+
+    <route id="route_ns1" edges="bottom0A0 A0A1 A1top0"/>
+    <route id="route_ns2" edges="top0A1 A1A0 A0bottom0"/>
+
+    <route id="route_ns3" edges="bottom1B0 B0B1 B1top1"/>
+    <route id="route_ns4" edges="top1B1 B1B0 B0bottom1"/>
+
+    <flow depart="1" id="flow_n_s1" route="route_ns1" type="ACar" begin="0" end="3600" probability="0.1" />
+    <flow depart="1" id="flow_n_s2" route="route_ns2" type="ACar" begin="0" end="3600" probability="0.1" />
+    <flow depart="1" id="flow_n_s3" route="route_ns3" type="ACar" begin="0" end="3600" probability="0.1" />
+    <flow depart="1" id="flow_n_s4" route="route_ns4" type="ACar" begin="0" end="3600" probability="0.1" />
+
+    <flow depart="1" id="flow_w_e1" route="route_we1" type="ACar" begin="0" end="3600" probability="0.3" />
+    <flow depart="1" id="flow_w_e2" route="route_we2" type="ACar" begin="0" end="3600" probability="0.3" />
+    <flow depart="1" id="flow_w_e3" route="route_we3" type="ACar" begin="0" end="3600" probability="0.3" />
+    <flow depart="1" id="flow_w_e4" route="route_we4" type="ACar" begin="0" end="3600" probability="0.3" />
+</routes>
