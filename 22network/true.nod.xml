@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/27/20 16:57:35 by Eclipse SUMO netgenerate Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netgenerateConfiguration.xsd">
+
+    <grid_network>
+        <grid value="true"/>
+        <grid.length value="500"/>
+        <grid.x-number value="6"/>
+        <grid.y-number value="6"/>
+        <grid.attach-length value="500"/>
+    </grid_network>
+
+    <output>
+        <plain-output-prefix value="true"/>
+    </output>
+
+    <building_defaults>
+        <default.lanenumber value="2"/>
+    </building_defaults>
+
+</configuration>
+-->
+
+<nodes version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,3500.00,3500.00" origBoundary="0.00,0.00,3500.00,3500.00" projParameter="!"/>
+
+    <node id="A0" x="500.00" y="500.00" type="traffic_light"/>
+    <node id="A1" x="500.00" y="1000.00" type="traffic_light"/>
+    <node id="B0" x="1000.00" y="500.00" type="traffic_light"/>
+    <node id="B1" x="1000.00" y="1000.00" type="traffic_light"/>
+    <node id="bottom0" x="500.00" y="0.00" type="priority"/>
+    <node id="bottom1" x="1000.00" y="0.00" type="priority"/>
+    <node id="left0" x="0.00" y="500.00" type="priority"/>
+    <node id="left1" x="0.00" y="1000.00" type="priority"/>
+    <node id="right0" x="1500.00" y="500.00" type="priority"/>
+    <node id="right1" x="1500.00" y="1000.00" type="priority"/>
+    <node id="top0" x="500.00" y="1500.00" type="priority"/>
+    <node id="top1" x="1000.00" y="1500.00" type="priority"/>
+</nodes>
