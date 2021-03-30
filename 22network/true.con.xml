@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
-    <connection from="A0" to="A1" fromLane="0" toLane="0"/>
-    <connection from="A0" to="B0" fromLane="0" toLane="0"/>
-    <connection from="A0" to="bottom0" fromLane="0" toLane="0"/>
-    <connection from="A0" to="left0" fromLane="0" toLane="0"/>
+    <connection from="left1A1" to="A1B1" fromLane="0" toLane="0"/>
+    <connection from="A1B1" to="B1right1" fromLane="0" toLane="0"/>
 
-    <connection from="A1" to="A0" fromLane="0" toLane="0"/>
-    <connection from="A1" to="B1" fromLane="0" toLane="0"/>
-    <connection from="A1" to="left1" fromLane="0" toLane="0"/>
-    <connection from="A1" to="top0" fromLane="0" toLane="0"/>
+    <connection from="left0A0" to="A0B0" fromLane="0" toLane="0"/>
+    <connection from="A0B0" to="B0right0" fromLane="0" toLane="0"/>
 
-    <connection from="B0" to="A0" fromLane="0" toLane="0"/>
-    <connection from="B0" to="B1" fromLane="0" toLane="0"/>
-    <connection from="B0" to="bottom1" fromLane="0" toLane="0"/>
-    <connection from="B0" to="right0" fromLane="0" toLane="0"/>
+    <connection from="bottom0A0" to="A0A1" fromLane="0" toLane="0"/>
+    <connection from="A0A1" to="A1top0" fromLane="0" toLane="0"/>
 
-    <connection from="B1" to="A1" fromLane="0" toLane="0"/>
-    <connection from="B1" to="B0" fromLane="0" toLane="0"/>
-    <connection from="B1" to="right1" fromLane="0" toLane="0"/>
-    <connection from="B1" to="top1" fromLane="0" toLane="0"/>
-    
-    <connection from="bottom0" to="A0" fromLane="0" toLane="0"/>
-    <connection from="bottom1" to="B0" fromLane="0" toLane="0"/>
-    <connection from="left0" to="A0" fromLane="0" toLane="0"/>
-    <connection from="left1" to="A1" fromLane="0" toLane="0"/>
-    <connection from="right0" to="B0" fromLane="0" toLane="0"/>
-    <connection from="right1" to="B1" fromLane="0" toLane="0"/>
-    <connection from="top0" to="A1" fromLane="0" toLane="0"/>
-    <connection from="top1" to="B1" fromLane="0" toLane="0"/>
+    <connection from="bottom1B0" to="B0B1" fromLane="0" toLane="0"/>
+    <connection from="B0B1" to="B1top1" fromLane="0" toLane="0"/>
 </connections>
