@@ -3,24 +3,24 @@
     <connection from="left1A1" to="A1B1"/>
     <connection from="A1B1" to="B1right1"/>
 
-    <connection from="A1B1" to="left1A1"/>
-    <connection from="B1right1" to="A1B1"/>
+    <connection from="B1A1" to="A1left1"/>
+    <connection from="right1B1" to="B1A1"/>
 
     <connection from="left0A0" to="A0B0"/>
     <connection from="A0B0" to="B0right0"/>
 
-    <connection from="A0B0" to="left0A0"/>
-    <connection from="B0right0" to="A0B0"/>
+    <connection from="B0A1" to="A0left0"/>
+    <connection from="right0B0" to="B0A1"/>
 
     <connection from="bottom0A0" to="A0A1"/>
     <connection from="A0A1" to="A1top0"/>
 
-    <connection from="A0A1" to="bottom0A0"/>
-    <connection from="A1top0" to="A0A1"/>
+    <connection from="A1A0" to="A0bottom0"/>
+    <connection from="top0A1" to="A1A0"/>
 
     <connection from="bottom1B0" to="B0B1"/>
     <connection from="B0B1" to="B1top1"/>
 
-    <connection from="B0B1" to="bottom1B0"/>
-    <connection from="B1top1" to="B0B1"/>
+    <connection from="B1B0" to="B0bottom1"/>
+    <connection from="top1B1" to="B1B0"/>
 </connections>
