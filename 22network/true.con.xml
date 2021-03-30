@@ -9,8 +9,8 @@
     <connection from="left0A0" to="A0B0"/>
     <connection from="A0B0" to="B0right0"/>
 
-    <connection from="B0A1" to="A0left0"/>
-    <connection from="right0B0" to="B0A1"/>
+    <connection from="B0A0" to="A0left0"/>
+    <connection from="right0B0" to="B0A0"/>
 
     <connection from="bottom0A0" to="A0A1"/>
     <connection from="A0A1" to="A1top0"/>
